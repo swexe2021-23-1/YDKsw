@@ -1,0 +1,2 @@
+class Zange < ApplicationRecord
+end
