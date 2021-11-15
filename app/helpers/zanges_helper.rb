@@ -1,0 +1,2 @@
+module ZangesHelper
+end
