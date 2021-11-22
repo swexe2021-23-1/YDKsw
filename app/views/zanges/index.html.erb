@@ -1,2 +1,4 @@
-<h1>Zanges#index</h1>
-<p>Find me in app/views/zanges/index.html.erb</p>
+<% @zanges.each do |zange| %>
+    <p><%= link_to zange.title, zange.url %></p>
+    <p>hahahhaha</p>
+<% end %>
